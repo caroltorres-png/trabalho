@@ -1,0 +1,10 @@
+JavaScript: 
+
+
+<button onclick="clicar()">Clique aqui</button>
+
+<script>
+function clicar() {
+  alert("Você clicou no botão!");
+}
+</script>
