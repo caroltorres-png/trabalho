@@ -1,0 +1,19 @@
+C++
+
+
+#include <QApplication>
+#include <QPushButton>
+
+int main(int argc, char *argv[])
+{
+    QApplication app(argc, argv);
+
+    QPushButton button("Clique aqui");
+    QObject::connect(&button, &QPushButton::clicked, [](){
+        QMessageBox::information(nullptr, "Mensagem", "Você clicou no botão!");
+    });
+
+    button.show();
+
+    return app.exec();
+}
