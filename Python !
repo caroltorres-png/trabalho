@@ -1,0 +1,20 @@
+Python: Conhecida por sua sintaxe clara e fácil de aprender, Python é amplamente utilizada em diversas áreas, desde desenvolvimento web até ciência de dados. Sua tipagem dinâmica permite uma escrita mais rápida, mas requer mais atenção a erros de tipo em tempo de execução.
+JavaScript: Essencial para o desenvolvimento web front-end, JavaScript também ganhou popularidade no back-end com o Node.js. Sua natureza dinâmica e interpretada facilita o desenvolvimento rápido, mas pode levar a alguns problemas de desempenho em aplicações complexas.
+C++: Uma linguagem de baixo nível com alto desempenho, C++ é frequentemente utilizada em projetos que exigem controle preciso sobre o hardware e máxima eficiência. Sua sintaxe mais complexa exige mais tempo para aprender, mas oferece grande flexibilidade e controle.
+PYTHON: 
+import tkinter as tk
+
+def clicar():
+    print("Você clicou no botão!")
+
+# Cria a janela principal
+janela = tk.Tk()
+janela.title("Minha Primeira Janela")
+
+# Cria um botão
+botao = tk.Button(janela, text="Clique aqui", command=clicar)
+botao.pack()
+
+# Inicia o loop principal da aplicação
+janela.mainloop()
+
