@@ -1,0 +1,18 @@
+2 – implemente um algorítimo que imprima apenas as vogais de uma 
+determinada palavra ou frase.
+
+def imprimir_vogais(palavra):
+  """Imprime as vogais presentes em uma palavra ou frase.
+
+  Args:
+    palavra: A palavra ou frase de entrada.
+  """
+
+  vogais = 'aeiouAEIOU'
+  for letra in palavra:
+    if letra in vogais:
+      print(letra)
+
+# Exemplo de uso:
+frase = "Olá, mundo!"
+imprimir_vogais(frase)
